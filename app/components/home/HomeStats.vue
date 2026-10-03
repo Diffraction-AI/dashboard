@@ -76,7 +76,7 @@ const { data: stats } = await useAsyncData<Stat[]>('stats', async () => {
         container: 'gap-y-1.5',
         wrapper: 'items-start',
         leading: 'p-2.5 rounded-full bg-primary/10 ring ring-inset ring-primary/25 flex-col',
-        title: 'font-normal text-muted text-xs uppercase'
+        title: 'font-medium text-muted text-xs uppercase tracking-wide'
       }"
       class="lg:rounded-none first:rounded-l-lg last:rounded-r-lg hover:z-1"
     >
